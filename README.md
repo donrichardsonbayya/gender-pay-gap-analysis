@@ -1,17 +1,17 @@
-# 💼 Gender Pay Gap & Compensation Disparity Analysis
+# Gender Pay Gap & Compensation Disparity Analysis
 
 This project investigates the **gender-based compensation gap** across roles and departments, using regression modeling and exploratory data analysis (EDA) to uncover systemic inequities in base pay, bonuses, and total compensation.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 - To quantify and analyze the impact of gender on total compensation, controlling for seniority, education level, and department.
 - Explore how pay disparities evolve with career progression.
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Dataset:** `salary_data.csv`
 - **Location:** `data/salary_data.csv`
@@ -24,15 +24,15 @@ This project investigates the **gender-based compensation gap** across roles and
 
 ---
 
-## 🧪 Methodology & ML Pipeline
+## Methodology & ML Pipeline
 
-### 📌 Preprocessing & EDA
+### Preprocessing & EDA
 
 - Data cleaning: missing values, inconsistencies addressed.
 - Derived key metrics such as `TotalCompensation`.
 - Generated exploratory visuals (bar plots, histograms, box plots).
 
-### 📌 Statistical Modeling (OLS Regression)
+### Statistical Modeling (OLS Regression)
 
 **Regression Equation**:
 
@@ -46,7 +46,7 @@ This project investigates the **gender-based compensation gap** across roles and
 
 - Evaluated model assumptions with residual and influence diagnostics.
 
-### 📈 Key Findings & Insights
+### Key Findings & Insights
 Persistent Gender-Based Bonus Gap: Men consistently earn higher bonuses than women, irrespective of performance.
 
 Seniority Amplifies Disparities: Gender pay gaps widen significantly at higher seniority levels.
@@ -57,7 +57,7 @@ Departmental Disparities Evident: Tech, sales, and administration departments di
 
 Robust Statistical Evidence: Gender strongly predicts total compensation disparities even after controlling for seniority, education, and department.
 
-### 📁 Repository Structure
+### Repository Structure
 
 gender-pay-gap-analysis/
 ├── data/
@@ -82,27 +82,26 @@ gender-pay-gap-analysis/
 ├── requirements.txt
 └── README.md
 
-### 🧰 Technology Stack
+### Technology Stack
 Programming Language: Python 3.10
 
 Libraries: pandas, seaborn, matplotlib, statsmodels
 
 Environment: Jupyter Notebook
 
-### 🔎 Business Relevance & Applications
+### Business Relevance & Applications
 Human Resources: Identifies biases in promotions, compensation policies, and bonus allocations.
 
 Executive Management: Provides empirical insights for developing equitable compensation strategies.
 
 Investors & ESG Analysts: Evaluates company practices related to social equity and inclusion.
 
-### 🚀 Potential Future Directions
+### Potential Future Directions
 Time-series analysis of pay gap evolution.
 
 Sentiment analysis of employee reviews to correlate with compensation disparities.
 
 Comparative industry analysis across various sectors.
 
-### 👤 Author Information
-
-Don Richardson Bayya
+### Author Information
+**Don Richardson Bayya**
